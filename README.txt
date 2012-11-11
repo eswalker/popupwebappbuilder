@@ -1,17 +1,17 @@
 Running Pop-up Web App Builder:
 
-Step 1:Put popup.py in the directory where you want your django project
+Step 1: Put popup.py in the directory where you want your django project
 
-Step 2: type the following in the terminal:
+Step 2: Type the following in the terminal:
 	sudo python popup.py
 	*enter your password if prompted
 
 Step 3: Fill out Pop-up Web App's simple form
 
-Step 4: type 'yes' if you want access to the admin site *
+Step 4: Type 'yes' if you want access to the admin site *
 	if 'yes', fill in username, email, and password
 
-Step 5: type the following into the terminal:
+Step 5: Type the following into the terminal:
 	cd your_project_name
 	python manage.py runserver 8000
 
