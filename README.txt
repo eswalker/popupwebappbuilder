@@ -1,4 +1,4 @@
-Running Pop-up Web App Builder
+Running Pop-up Web App Builder:
 
 Step 1:Put popup.py in the directory where you want your django project
 
