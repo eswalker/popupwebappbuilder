@@ -1,15 +1,15 @@
 '''
-Pop Up Web App Builder
-
-Authors: Ed Walker and Anastasia Georgiou
-Version: 1.0
-Created: 11/11/2012
-
-Description: Creates a fully functional django web app from simple user input.
+    Pop Up Web App Builder
+    
+    Authors: Ed Walker and Anastasia Georgiou
+    Version: 1.0
+    Created: 11/11/2012
+    
+    Description: Creates a fully functional django web app from simple user input.
     
     
     
-To RUN:
+    To RUN:
     Step 1: Put popup.py in the directory where you want your django project
     
     Step 2: Type the following in the terminal:
@@ -29,14 +29,14 @@ To RUN:
     
     *When your site is running go to localhost:8000/admin to access the admin site
     ^To let others see your apps type python manage.py runserver 0.0.0.0:8000 into the terminal and have them type YourIPAddress:8000 in their browser
-
     
     
-Note: All elements are in one file to increase portability
-    Three major sections: 
-        1. Django Templates, 
-        2. Django Project Setup, 
-        3. Tkinter form
+    
+    Note: All elements are in one file to increase portability
+    Three major sections:
+    1. Django Templates,
+    2. Django Project Setup,
+    3. Tkinter form
     
     
 '''
@@ -69,7 +69,7 @@ import os
     
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
     
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
