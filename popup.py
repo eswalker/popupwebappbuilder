@@ -7,12 +7,13 @@
     
     Description: Creates a fully functional django web app from simple user input.
     
+    Winner of the Open Source Prize at the 2012 Princeton Hackathon
     
     
     To RUN:
     Step 1: Put popup.py in the directory where you want your django project
     
-    Step 2: Type the following in the terminal:
+    Step 2: Type the following into the terminal:
 	sudo python popup.py
 	*enter your password if prompted
     
@@ -22,6 +23,7 @@
 	if 'yes', fill in username, email, and password
     
     Step 5: Type the following into the terminal:
+	sudo chmod -R 777 your_project_name
 	cd your_project_name
 	python manage.py runserver 8000
     
@@ -34,9 +36,9 @@
     
     Note: All elements are in one file to increase portability
     Three major sections:
-    1. Django Templates,
-    2. Django Project Setup,
-    3. Tkinter form
+    1. Django Templates (Ed),
+    2. Django Project Setup (Ed),
+    3. Tkinter form (Anastasia)
     
     
 '''
